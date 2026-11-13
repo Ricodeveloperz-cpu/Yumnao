@@ -1,0 +1,6 @@
+@import "tailwindcss";
+:root{--paper:#fff9e9;--ink:#171717;--yellow:#ffe45c;--pink:#ff9db5;--blue:#a9d8ff;}
+*{box-sizing:border-box} body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif}
+button,input,textarea{font:inherit}.brutal{border:3px solid var(--ink);box-shadow:5px 5px 0 var(--ink)}.brutal-sm{border:2px solid var(--ink);box-shadow:3px 3px 0 var(--ink)}
+.btn{border:3px solid var(--ink);box-shadow:4px 4px 0 var(--ink);font-weight:900;transition:transform .12s,box-shadow .12s}.btn:active{transform:translate(3px,3px);box-shadow:1px 1px 0 var(--ink)}
+.dots{background-image:radial-gradient(#171717 1px,transparent 1px);background-size:14px 14px}
